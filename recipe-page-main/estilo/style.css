@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+@import url(https://fonts.google.com/specimen/Young+Serif);
+
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root {
+    --cor0: hsl(31, 62%, 55%);
+    --cor1: hsl(30, 18%, 87%);
+    --cor2: hsl(30, 10%, 34%);
+    --cor3: hsl(24, 5%, 18%);
+    --cor4: hsl(15, 56%, 90%);
+    --cor5: hsl(332, 51%, 32%);
+    --cor6: hsl(36, 100%, 98%);
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: specimen Young, sans-serif;
+    --fonte-principal: specimen Outfit, Outfit;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--cor4);
+    padding: 10px;
+}
+.centralizar{
+    text-align: left;
+    padding: 20px;
+}
+
+.container {
+    font-family: var(--fonte-principal);
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--cor6);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    color: var(--cor3);
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.descricao {
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    color:var(--cor3);
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.preparacao {
+    text-align: justify;
+    background-color: #f6f0fa;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.preparacao h3 {
+    color: var(--cor5);
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.linha{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+   
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--cor0);
+    margin-bottom: 20px;
+}
+ul {
+    text-align: right;
+    margin-bottom: 20px;
+}
+ul li {
+    
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+ol {
+    margin-bottom: 30px;
+}
+
+ol li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.nutrition {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition td:first-child{
+    text-align: left;
+}
+
+.nutrition td:last-child{
+    text-align: right;
+    color: var(--cor0);
+}
+.nutrition strong {
+    color:#d9534f
+}
